@@ -1,0 +1,9 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    <h2>Вы вышли из своей учетной записи</h2>
+    <div  style="border-top:0px solid #ddd;  padding-top: 10px;">
+        <small class="text-muted" style="margin-left: 20px; font-size: 30px;">
+            <a href="{% url 'login' %}">Войти</a>
+        </small>
+    </div>
+{% endblock content %}
